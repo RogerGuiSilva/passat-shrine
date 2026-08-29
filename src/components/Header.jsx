@@ -4,7 +4,7 @@ import './Header.css';
 export default function Header({favoriteCount}) {
     return(
     <header className="header">
-        <h1 className="logo">Pssat Shrine</h1>
+        <h1 className="logo">Passat Shrine</h1>
         <nav>
             <Link to="/" className="link">Catalogo</Link>
             <Link to="/favoritos" className="link">

@@ -1,0 +1,15 @@
+.favorites-container {
+  padding: 2rem;
+}
+
+.favorites-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.empty-message {
+  text-align: center;
+  color: #aaa;
+  margin-top: 2rem;
+}

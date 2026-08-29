@@ -9,6 +9,7 @@ export default function CarCard({ car, isFavorite, onToggleFavorite }) {
       <p className="card-info"><strong>Motor:</strong> {car.engine}</p>
       <p className="card-info"><strong>Potência:</strong> {car.power}</p>
       <p className="card-info"><strong>0–100 km/h:</strong> {car.zeroToHundred}</p>
+      <p className="card-info"><strong>Velocidade Máxima:</strong> {car.topSpeed}</p>
       
       <div className="card-actions">
         <Link to={`/carro/${car.id}`} className="btn-details">
