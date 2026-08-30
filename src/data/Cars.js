@@ -3,7 +3,7 @@ import passatLS from '../img/passatls.jpg';
 import passatTS from '../img/passatts.jpg';
 import passatLSE from '../img/passatlse.jpg';
 import passatSurf from '../img/passatsurf.jpg';
-import passatGls from '../img/Passatgls.jpg';
+import passatGls from '../img/passatgls.jpg';
 import passatSport from '../img/passatsport.jpg';
 import passatVillage from '../img/passatvilagge.jpg';
 import passatPointer from '../img/passatpointer.png';

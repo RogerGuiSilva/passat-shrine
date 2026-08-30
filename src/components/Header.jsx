@@ -8,6 +8,8 @@ export default function Header({favoriteCount}) {
         <nav>
             <Link to="/" className="link">Catalogo</Link>
             <Link to="/favoritos" className="link">
+            <br>
+            </br>
                 Favoritos <span className="badge">{favoriteCount}</span>
             </Link>
         </nav>

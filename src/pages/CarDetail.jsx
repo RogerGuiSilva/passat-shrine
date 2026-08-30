@@ -45,7 +45,7 @@ const handleSubmitComment = (e) => {
 
       <img src={car.image} alt={car.name} className="detail-image" />
 
-      <p className="detail-description">{car.description}</p>
+      
 
       <div className="specs-box">
   <h3>Especificações Técnicas:</h3>

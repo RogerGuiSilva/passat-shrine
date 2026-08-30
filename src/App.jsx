@@ -9,7 +9,7 @@ import { passatModels } from './data/Cars';
 export default function App() {
   const [favorites, setFavorites] = useState([]);
 
-  // Função para adicionar ou remover um carro dos favoritos
+  
   const handleToggleFavorite = (car) => {
     const isAlreadyFav = favorites.some((fav) => fav.id === car.id);
 
@@ -21,7 +21,7 @@ export default function App() {
   };
 
   return (
-    <div style={{ backgroundColor: '#121212', minHeight: '100vh', color: '#fff' }}>
+    <div>
       <Header favoriteCount={favorites.length} />
       
       <Routes>
