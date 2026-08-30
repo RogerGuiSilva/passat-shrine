@@ -16,13 +16,12 @@ import passatB9 from '../img/passatb9.jpg';
 export const passatModels = [
   {
     id: 1,
-    name: "Passat B1 (1973 - Europa)",
+    name: "Passat B1 (1973)",
     engine: "1.3 / 1.5 Carburado",
     power: "60 cv",
     zeroToHundred: "15,0s",
     topSpeed: "150 km/h",
-    image: passatB1,
-    description: "A primeira geração lançada na Europa, desenhada por Giorgetto Giugiaro, revolucionando a linha VW com motor refrigerado a água."
+    image: passatB1
   },
   {
     id: 2,
@@ -31,8 +30,8 @@ export const passatModels = [
     power: "65 cv",
     zeroToHundred: "17,0s",
     topSpeed: "145 km/h",
-    image: passatLS,
-    description: "Chegada do modelo ao Brasil na versão Luxo Super, trazendo a tração dianteira e design moderno para o mercado nacional."
+    image: passatLS
+    
   },
   {
     id: 3,
@@ -41,8 +40,8 @@ export const passatModels = [
     power: "80 cv",
     zeroToHundred: "13,1s",
     topSpeed: "160 km/h",
-    image: passatTS,
-    description: "O Touring Sport icônico com faróis quádruplos redondos, conta-giros no painel e vocação esportiva de respeito."
+    image: passatTS
+    
   },
   {
     id: 4,
@@ -51,8 +50,7 @@ export const passatModels = [
     power: "80 cv",
     zeroToHundred: "13,5s",
     topSpeed: "158 km/h",
-    image: passatLSE,
-    description: "Versão 'Passat Iraque' de 4 portas, desenvolvida para exportação com acabamento luxuoso e ar-condicionado."
+    image: passatLSE
   },
   {
     id: 5,
@@ -61,8 +59,8 @@ export const passatModels = [
     power: "65 cv",
     zeroToHundred: "16,5s",
     topSpeed: "148 km/h",
-    image: passatSurf,
-    description: "Série especial voltada ao público jovem da época, com visual descolado, para-choques pretos e detalhes exclusivos."
+    image: passatSurf
+    
   },
   {
     id: 6,
@@ -71,8 +69,8 @@ export const passatModels = [
     power: "80 cv",
     zeroToHundred: "13,8s",
     topSpeed: "155 km/h",
-    image: passatGls,
-    description: "Versão de topo com visual atualizado na década de 80, faróis retangulares e interior com acabamento aveludado."
+    image: passatGls
+   
   },
   {
     id: 7,
@@ -81,8 +79,8 @@ export const passatModels = [
     power: "82 cv",
     zeroToHundred: "12,8s",
     topSpeed: "162 km/h",
-    image: passatSport,
-    description: "Série especial esportiva que antecedeu a chegada dos motores AP, trazendo detalhes pretos e apelo jovem."
+    image: passatSport
+    
   },
   {
     id: 8,
@@ -91,8 +89,8 @@ export const passatModels = [
     power: "85 cv",
     zeroToHundred: "12,2s",
     topSpeed: "165 km/h",
-    image: passatVillage,
-    description: "Série consagrada nos anos 80, equipada com o resistente motor AP e ótimo nível de conforto."
+    image: passatVillage
+    
   },
   {
     id: 9,
@@ -101,8 +99,8 @@ export const passatModels = [
     power: "99 cv",
     zeroToHundred: "10,9s",
     topSpeed: "172 km/h",
-    image: passatPointer,
-    description: "O ápice dos esportivos nacionais da época, equipado com bancos Recaro, rodas 'pingo d'água' e motor AP afiado."
+    image: passatPointer
+    
   },
   {
     id: 10,
@@ -111,8 +109,8 @@ export const passatModels = [
     power: "150 cv",
     zeroToHundred: "8,9s",
     topSpeed: "223 km/h",
-    image: passatB5,
-    description: "Salto tecnológico com plataforma compartilhada com a Audi, introduzindo motores turbo e tração 4Motion no Brasil."
+    image: passatB5
+    
   },
   {
     id: 11,
@@ -121,8 +119,8 @@ export const passatModels = [
     power: "200 cv",
     zeroToHundred: "7,8s",
     topSpeed: "235 km/h",
-    image: passatB6,
-    description: "Design imponente com grade cromada em V, injeção direta FSI, câmbio DSG e freio de estacionamento eletrônico."
+    image: passatB6
+    
   },
   {
     id: 12,
@@ -131,8 +129,8 @@ export const passatModels = [
     power: "211 cv",
     zeroToHundred: "7,6s",
     topSpeed: "238 km/h",
-    image: passatB7,
-    description: "Evolução sóbria e elegante com iluminação em LED, assistentes de condução e câmbio DSG de dupla embreagem."
+    image: passatB7
+    
   },
   {
     id: 13,
@@ -141,8 +139,7 @@ export const passatModels = [
     power: "220 cv",
     zeroToHundred: "6,7s",
     topSpeed: "246 km/h",
-    image: passatB8,
-    description: "Construído sobre a plataforma modular MQB, trazendo o painel digital Active Info Display e faróis Full LED."
+    image: passatB8
   },
   {
     id: 14,
@@ -151,7 +148,7 @@ export const passatModels = [
     power: "272 cv",
     zeroToHundred: "5,6s",
     topSpeed: "250 km/h",
-    image: passatB9,
-    description: "Nona e mais recente geração, lançada exclusivamente na versão Variant na Europa, com motores híbridos e alta conectividade."
+    image: passatB9
+  
   }
 ];
