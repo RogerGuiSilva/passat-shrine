@@ -61,25 +61,29 @@ const handleSubmitComment = (e) => {
       >
         {isFavorite ? 'Remover dos Favoritos' : 'Adicionar aos Favoritos'}
       </button>
+<div className = "comments-section"><h3>Deixe seu Comentario</h3>
 
-      <div className = "comments-section">
-        <h3>Deixe seu Comentario</h3>
+<form onSubmit={handleSubmitComment} className="comment-form">
+          <input
+            type="text"
+            placeholder="Seu nome"
+            value={userName}
+            onChange={(e) => setUserName(e.target.value)}
+            className="comment-input"
+            required
+          />
 
-<form onSubmit = {handleSubmitComment} className="comment-form">
-  <input
-  type="text"
-  placeholder="seu nome"
-  value ={userName}
-  onChange={(e) => setUserName(e.target.value)}
-  className="comment-textarea"
-  rows="3"
-  required
-  />
+          <textarea
+            placeholder="Escreva seu comentário..."
+            value={commentText}
+            onChange={(e) => setCommentText(e.target.value)}
+            className="comment-textarea"
+            rows="3"
+            required
+          />
 
-  <button type="submit" className="comment-button">
-    Cadastrar Comentario
-  </button>
-</form>
+          <button type="submit" className="comment-button">Cadastrar Comentário </button>
+        </form>
 
 <div className="comments-list">
           <h4>Comentários ({comments.length})</h4>
